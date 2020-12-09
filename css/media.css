@@ -1,0 +1,139 @@
+@media (max-width: 940px) {
+
+    .wrapper,
+    .footer {
+        display: block;
+    }
+
+    .container {
+        padding: 0;
+    }
+
+    .line__right,
+    .line__left,
+    .footer__line__left,
+    .footer__line__right {
+        display: none;
+    }
+
+    .header_inner {
+        padding: 0 5px;
+    }
+
+    .items__inner {
+        padding: 0 10px 0 10px;
+    }
+
+    .recent__works {
+        flex-wrap: wrap;
+    }
+
+    .works-title {
+        margin: 0 auto;
+    }
+
+    .works-line {
+        margin: 0 auto;
+    }
+
+    .works-line img {
+        max-width: 100%;
+    }
+
+    .works__inner {
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 925px) {
+    .works__inner {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .works__inner-item {
+        margin: 10px 40px;
+    }
+
+    .footer__inner {
+        padding-left: 25px;
+    }
+
+    .footer__inner-item {
+        padding-left: 15px;
+    }
+}
+
+
+@media (max-width: 875px) {
+    .items__inner {
+        flex-wrap: wrap;
+    }
+
+    .item {
+        padding: 20px 0;
+        max-width: 100%;
+        align-items: center;
+        border-bottom: 1px solid #f3af9d;
+    }
+}
+
+
+
+
+@media (max-width: 800px) {
+    .slider__item-title {
+        padding: 15px 20px 20px 15px;
+        width: 200px;
+    }
+
+
+}
+
+@media (max-width: 620px) {
+    .footer__inner {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .footer__inner-item {
+        width: 100%;
+        padding-top: 25px;
+
+    }
+
+    .footer__inner-logo {
+        text-align: center;
+    }
+
+    .header__menu ul {
+        display: none;
+        position: absolute;
+        z-index: 2;
+        right: 15px;
+        width: 80px;
+        background-color: #fff;
+        border-radius: 5px;
+
+
+    }
+
+    .header__menu ul li {
+        display: block;
+        margin: 10px auto;
+    }
+
+    .header__menu a {
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .header_inner {
+        align-items: center;
+    }
+
+    .header__menu-btn {
+        margin-right: 30px;
+        display: block;
+    }
+}
